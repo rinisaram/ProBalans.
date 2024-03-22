@@ -1,0 +1,1823 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Inclusive+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+/* {
+    font-family: 'PT Serif', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+
+} */
+
+.comforter-regular {
+    font-family: "Comforter", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    border: 0px;
+    padding: 0%;
+    margin:0 ;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    font-family: rubik;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container {
+    padding: 0%;
+    background-color: rgb(240, 205, 237);
+    background-image: url('https://img.freepik.com/premium-photo/beautiful-sunset-view-beach_889227-3115.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.cards-background {
+    background-image: url('https://img.freepik.com/free-photo/handsome-stylish-young-male-model-posing-grey-coat-studio-shooting_273609-5268.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.display-cards {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: transparent; /* Remove the white background color */
+}
+
+.cards-box {
+    width: 1400px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+}
+
+.card {
+    height: 180px;
+    width: 280px;
+    background-color: rgb(245, 238, 229);
+    margin: 20px;
+    text-align: center;
+    margin-top: -135px;
+    padding: 30px;
+    border-radius: 10px;
+    padding-bottom: 12px;
+    box-shadow: 5px 7px 30px 0px rgb(114, 114, 114);
+    cursor: pointer;
+}
+
+/* Add any other styles for the cards as needed */
+
+/* Add any other styles for other sections as needed */
+
+.navbar-1{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    padding: 10px 10vw 6px 10vw;
+    margin-top: -25px;
+    white-space: nowrap;
+    font-family: comforter-regular}
+
+.navbar-2-L .home{
+    color: rgb(255, 255, 255);
+    transform: scale(1.3);
+}
+
+
+.n-address
+{
+    width: 200px;
+}
+
+.n-time
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    text-align: center;
+}
+
+.n-logo{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.logoo{
+    margin-left: 400px;
+    /* margin-top: 40px; */
+    margin-bottom: -15px;
+    font-size: 40px;
+}
+
+.n-support{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+/* ++++++++++++++++++++++++  Navbar  ++++++++++++++++++++++++++ */
+
+
+
+.navbar-2{
+    background-color:#57ad35;
+    
+    background-size:cover;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 0px 500px 0px 500px; */
+    padding: 0px 10vw 0px 10vw;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navbar-2-L .home{
+    color: yellow;
+    transform: scale(1.3);
+}
+
+.navbar-2 a:hover{
+    color: yellow;
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.navbar-2-L{
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.navbar-2-R{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.n2{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contact{
+    margin-top: 15px;
+}
+
+.login{
+    padding: 15px;
+    border-radius: 30px;
+    font-family: rubik;
+    padding-left: 23px;
+    padding-right: 23px;
+    border: 1px solid white;
+    background-color: #9e23eb;
+    color:aliceblue;
+
+}
+
+.login:hover{
+    background-color: #cd96f0;
+    color: aliceblue;
+    transition: .7s ease;
+}
+
+img {
+    float: right;
+    margin-right: 2px;
+    width: 30px;
+    height: 60 px; /* Adjust as needed */
+}
+
+
+.imggg {
+    position: absolute;
+    top: 2px; /* Position at the top */
+    left: 150px; /* Center horizontally */
+    transform: translateX(-50%); /* Centering trick */
+    width: 300px;
+    height: auto;
+}
+
+.imgg {
+    position: absolute;
+    top: 350px; /* Adjust this value to move the image up or down */
+    left: 800px;
+    width: 550px;
+    height: auto;
+}
+/* ++++++++++++++++++++++++  DISPLAY  ++++++++++++++++++++++++++ */
+
+.display{
+    text-align: center;
+    background-color: rgb(240, 205, 237);
+    background-image: url('https://img.freepik.com/premium-photo/beautiful-sunset-view-beach_889227-3115.jpg');
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    color: #636ca7;
+    margin: 0px 0px 20px 0px;
+}
+
+.display-box{
+    width: 1400px;
+    height: 900px;
+    margin-bottom: -10px;
+
+    /* background-color: aqua; */
+    padding: 0px 50px 0px 50px;
+}
+
+
+
+.display-logo{
+    font-family: 'Comic Neue', cursive;
+    font-size: 65px;
+    text-align: left;
+    margin-top: -30px;
+    
+}
+
+.display-1{
+    font-family: 'Rubik', sans-serif;
+    margin-top: -59px;
+    font-size: 39px;
+    text-align: left;
+}
+
+.display-1-1{
+    margin-bottom: -33px;
+    
+}
+
+.display-2{
+    /* font-family: 'Montserrat', sans-serif; */
+    width: 60vh;
+    margin-top: -22px;
+    text-align: left;
+}
+.display-3{
+    text-align: left;
+}
+.display-learn-more{
+    padding: 14px 18px 14px 18px ;
+    border-radius: 25px;
+    border:  2px solid #a82ef2;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+.display-learn-more:hover{
+    background-color: #a82ef2;
+    color: aliceblue;
+    transition: .7s ease;
+}
+
+/* ++++++++++++++++++++++++  DISPLAY CARDS  ++++++++++++++++++++++++++ */
+
+.display-cards{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.cards-box{
+    width: 1400px;
+    height: 120px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card{
+    height: 180px;
+    width: 280px;
+    background-color: rgb(245, 238, 229);
+    margin: 20px;
+    text-align: center;
+    margin-top: -135px;
+    padding: 30px;
+    border-radius: 10px;
+    padding-bottom: 12px;
+    box-shadow: 5px 7px 30px 0px rgb(114, 114, 114);
+    cursor: pointer;
+    
+}
+
+.card-icon-title{
+    display: flex;
+    align-items: center;
+}
+
+.card-icon-title img{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.card h2{
+    color: #a82ef2;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.card p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+.card:hover{
+
+    background-color: #a82ef2;
+    color: white;
+    box-shadow: 5px 7px 20px 0px #a866d1;
+    transition: 0.4s ease-in;
+    transform: scale(1.2);
+}
+
+.card:hover h2{
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+.card:hover p{
+    color: yellow;
+    transition: 0.5s ease-in;
+} 
+
+
+
+
+/* ++++++++++++++++++++++++  WHAT WE OFFER  ++++++++++++++++++++++++++ */ 
+
+.offering{
+    display: flex;
+    height: 500px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.offering-box{
+    width: 1300px;
+    height: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.offering1-box-1{
+    display: flex;
+    flex-direction: row;
+    
+}
+.offering1-box-2{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+
+.offering-card{
+    padding: 5px;
+    margin: 10px 35px 10px 35px;
+    align-items: center;
+    text-align: center;
+}
+
+.offering2{
+    width: 400px;
+}
+
+.offering2 h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    margin-top: -5px;
+}
+
+.offering2 p{
+    margin-top: -15px;
+}
+
+.offering-btn{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 17px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 20px;
+    display: block;
+    border: #eee;
+    
+}
+
+.offering-btn:hover{
+    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ++++++++++++++++++++++++ UPCOMMING EVENT   ++++++++++++++++++++++++++ */ 
+
+.upcomming{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upcomming-box{
+    width: 1300px;
+    /* background-color: #9e23eb; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.upcomming-title{
+    text-align: center;
+}
+
+.upcomming-title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 43px;
+    padding-top: 20px;
+}
+
+.upcomming-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0px -30px 0px -30px; */
+    width: 1200px;
+    height: 260px;
+    margin: 20px 0px 20px 0px;
+}
+
+.upcomming-card2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0px -30px 0px -30px; */
+    width: 1200px;
+    height: 270px;
+    margin: 20px 0px 20px 0px;
+    background-color: rgb(221, 217, 211);
+    border-radius: 5px;
+}
+
+.upcomming img{
+    border-radius: 12px;
+}
+
+.date{
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+.location{
+    align-items: center;
+    
+}
+
+.location h1{
+    margin-bottom: -2px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    margin-top: -10px;
+}
+
+.location p{
+    font-family: 'PT Serif', serif;
+    margin-bottom: -10px;
+    
+}
+
+
+         
+.upcomming-btn {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 13px;
+    display: block;
+    border: #eee;
+}
+
+.upcomming-btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
+/* ++++++++++++++++++++++++  Our Services  ++++++++++++++++++++++++++ */ 
+
+
+
+.service-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(220, 228, 235);
+    padding-bottom: 30px;
+}
+
+.service-price-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+}
+
+.service-price-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-price-title h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 43px ;
+    padding-top: 20px;
+}
+
+.service-price-title p{
+    margin:-5px
+}
+
+
+.service-price-card-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -30px;
+
+}
+
+.service-price-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: white;
+    width: 290px;
+    border-radius: 7px; 
+    padding: 16px 0px 29px 0px;
+}
+
+.service-price-card:hover{
+    background-color: #9733ee;
+    color: aliceblue;
+    box-shadow: 4px 2px 12px 2px rgb(236, 190, 236);
+    transition: 0.3s ease-in;
+    transform: scale(.9);
+}
+
+.service-price-card:hover h2{
+    color: yellow;
+    transition: 0.4s ease-in;
+}
+
+.service-price-card:hover button{
+     background-image: linear-gradient(to right, rgb(218, 218, 13)  0%, rgb(238, 238, 113)    51%, yellow  100%);
+     color: #9733EE;
+     transition: 0.5s ease-in;
+}
+
+.spc2{
+    margin-top: 170px;
+}
+
+.service-price-card h1{
+    font-family: 'Rubik', sans-serif;
+}
+.service-price-card h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 45px;
+    color: #9733EE;
+    margin: 0px;
+}
+
+.service-price-card p{
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+
+
+         
+.service-price-btn{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+    border: #eee;
+    margin-top: 19px;
+}
+
+.service-price-btn:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+    transition: 0.7s ease-in;
+}
+
+/* ++++++++++++++++++++++++  Reviews  ++++++++++++++++++++++++++ */ 
+ 
+.review-section{
+    display: flex;
+    text-align: center;    
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 650px;
+    
+}
+
+.review-box{
+    display: flex;
+    width: 1300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+
+.review-box1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 500px;
+    margin-right: 109px;
+}
+
+.review-box2{
+    width: 450px;
+    background-color: #f3f1f5;
+    padding:  30px 10px 70px 10px;
+    text-align: left;
+    padding: 50px;
+
+}
+
+.reviewer-photo{
+    display: flex;
+    flex-direction:row;
+    align-items: left;
+    text-align: left;
+    justify-content: center;
+    margin-left: -150px;
+    font-family: 'Rubik', sans-serif;
+    
+    
+}
+
+.reviewer-photo img{
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.reviewer-photo h2{
+    margin-top: 40px;
+}
+
+.review-box2 h5{
+    margin-bottom: -3px;
+    margin-left: 3px;
+}
+
+.review-box1 h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #be1cdf;
+    margin-bottom: -5px;
+}
+
+.review-box1 h1{
+     font-family: 'Rubik', sans-serif;
+}
+
+.review-box1 p{
+    margin-top: -4px;
+    
+}
+
+.review-section-btn{
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+    border: #eee;
+    margin-top: 19px;
+    font-family: rubik;
+}
+
+.review-section-btn:hover{
+    background-position: right center; 
+    background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%);
+    color: yellow;
+    text-decoration: none;
+    transition: 0.7s ease-in;
+}
+
+
+
+
+/* ++++++++++++++++++++++++  UPPER FOOTER  ++++++++++++++++++++++++++ */
+
+.upper-footer{
+    background-color: rgb(202, 190, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.upper-footer-box{
+    width: 12   00px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #a82ef2; */
+}
+
+.upper-footer-box h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+   
+}
+.footer{
+    width: 100vw;
+}
+.footer-text{
+    margin-left: 300px;
+}
+.footer-mail{
+    margin-right: 200px;
+}
+
+.footer-mail-input{
+    padding: 12px 25px 12px 19px;
+    border-radius: 7px;
+    border: 1px solid #9e23eb;
+    color: #9e23eb;
+}
+
+.footer-mail-btn{
+    padding: 10px 18px 10px 18px ;
+    border-radius: 12px;
+    border:  2px solid #a82ef2;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+    background-color: #a82ef2;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.footer-mail-btn:hover{
+    background-color:aliceblue;
+    color: #9e23eb;
+}
+
+
+
+/* ++++++++++++++++++++++++  FOOTER  ++++++++++++++++++++++++++ */
+
+
+
+
+.footer{
+    background-image: url(../images/home/home-footer3.jpg);
+    background-size: cover;
+    /* margin-top: 30px; */
+    height: 350px;
+    /* background-color: #a82ef2; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 1px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footer-box{
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer1 h1{
+    color: #a82ef2;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-left: -50px;
+}
+.footer h2{
+    color: #a82ef2;
+}
+
+.tag{
+    font-family: 'Pacifico', cursive;
+    color: #a82ef2;
+}
+
+
+
+/* ++++++++++++++++++++++++ MEDIA QUERY +++++++++++++++++++++++ */
+
+/* @media screen and (max-width: 1515px){
+    .footer{
+        
+    }
+} */
+@media screen and (max-width: 1500px){
+    .cards-box{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1290px){
+        
+
+.logoo {
+    margin-bottom: -9px;
+    font-size: 10px;
+    padding-left: 35px;
+    margin-left: -70px;
+
+}
+
+.n-support{
+    padding-left: 50px;
+
+}
+
+.navbar-1{
+
+    font-size: 13px;
+}
+
+.card{
+    /* height: 150px; */
+    width: 230px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-icon-title{
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    height: 40px;
+}
+.card p{
+    display: none;
+}
+
+
+.upcomming-card .date{
+    font-size: 15px;
+}
+
+.location h1{
+    font-size: 25px;
+}
+
+.location p{
+    font-size: 13px;
+}
+
+.upcomming-box img{
+    height: 140px;
+}
+
+.upcomming-box{
+    width: 900px;
+}
+
+.upcomming-card{
+    width: 800px;
+}
+.upcomming-card2{
+    width: 800px;
+}
+
+
+
+.service-price-card{
+
+    width: 200px;
+}
+
+.service-price h1{
+    font-size: 20px;
+}
+
+.service-price p{
+    font-size: 15px;
+}
+
+.service-price-btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+
+.review-box{
+    width: 700px;
+}
+
+.review-box h1{
+    font-size: 29px;
+}
+
+.review-box h2{
+    font-size: 20px;
+}
+
+.review-box p{
+    font-size: 13px;
+}
+
+.reviewer-photo{
+    margin-left: 00px;
+}
+
+.reviewer-photo img{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1170px){
+    .navbar-1{
+        
+    }
+
+    .cards-box{
+        justify-content: space-around;
+    }
+
+    .card{
+        
+        margin-left: 50px;
+        width: 180px;
+    }
+
+    
+    .card p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+
+    .navbar-1 p4{
+        display: none;
+    }
+
+    .n-logo{
+        width: 400px;
+        margin-left: -400px;
+    } 
+
+    .logoo{
+        width: 200px;
+       
+
+        
+    }
+
+    .n-book-meeting{
+        font-size: 10px;
+        /* margin: 10px; */
+        padding: 10px 25px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        
+    }
+
+    
+
+
+    .navbar-2 {
+        background-size: auto;
+        margin-top: 10PX;
+    }
+
+    
+
+.offering-box{
+    width: 700px;
+}
+
+
+
+
+
+.display-logo{
+    font-size: 45px;
+}
+
+.display-1{
+    font-size: 29px;
+}
+
+.display-2 p{
+    font-size: 12px;
+}
+
+.display-cards{
+    margin-top: -300px;
+}
+
+.card{
+    width: 120px;
+}
+
+.cards-box{
+    margin-top: 59px;
+}
+
+.card img{
+    margin-right: 0px;
+}
+.card h2{
+    font-size: 20px;
+    margin-left: 0px;
+}
+.card p{
+    font-size: 10px;
+    /* display: none; */
+}
+
+.offering2 p
+{
+    display: none;
+}
+
+.upcomming-title h1{
+    font-size: 30px;
+}
+
+.upcomming-title p{
+    font-size: 14px;
+}
+
+
+.upcomming-card .date{
+    font-size: 15px;
+}
+
+.location h1{
+    font-size: 25px;
+}
+
+.location p{
+    font-size: 13px;
+}
+
+.upcomming-box img{
+    height: 140px;
+}
+
+.upper-footer-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.upper-footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-text{
+    /* margin-right: 60px;
+    margin-left: 70px; */
+    margin: auto;
+}
+
+.footer-mail{
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 900px){
+   .n2{
+    font-size: 14px;
+   }
+
+   .n-logo{
+    
+    margin-left: -300px;
+} 
+
+   
+   
+   .navbar-2 {
+    background-size: auto;
+}
+   
+    .service-price-card{
+    
+        width: 150px;
+    } 
+
+    .service-price h1{
+        font-size: 15px;
+    }
+
+    .service-price h2{
+        font-size: 25px;
+    }
+    
+    .service-price p{
+        font-size: 10px;
+    }
+    
+    .service-price-btn{
+        padding: 7px 10px;
+        border-radius: 30px;
+        font-size: 10px;
+    }
+    
+
+    .offering{
+        
+    }
+
+    .offering-box{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .offering2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -70px;
+    }
+
+    .offering2 h1{
+        font-size: 40px;
+        margin-top: 40px;
+        /* margin-right: 30px; */
+    }
+
+    .offering-btn{
+        margin-top: 60px;
+    } 
+    .offering-card img{
+        height: 50px;
+    }
+
+    .offering1-box-1{
+
+    }
+
+    .upper-footer-box{
+    width: 400px;
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .card{
+        width: 100px;
+    }
+
+    .upcomming-box{
+        width: 500px;
+    }
+    
+    .upcomming-card{
+        width: 570px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 570px;
+        margin: 1px -10px;
+    }
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        padding: 13px 15px;
+        font-size: 10px;
+        border-radius: 30px;
+    }
+    
+
+}
+
+@media screen and (max-width: 701px){
+     .C3{
+        margin-left: -10px;
+     }
+
+     .C2{
+        margin-left: -10px;
+     }
+}
+
+
+@media screen and (max-width: 768px){
+    
+    .navbar-2 {
+        background-size: auto;
+    }
+    
+
+    .n2{
+        font-size: 12px;
+       }
+
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+
+
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+
+    .display-logo h1{
+        font-size: 80px;
+    }
+
+    .display-1{
+        margin-top: 30px;
+    }
+    .display-1 h2{
+       
+            font-size: 40px;
+        }
+    
+    
+    .card{
+        height: 80px;
+        width: 80px;
+    }
+
+    .card h2{
+        font-size: 13px;
+    }
+
+    .card p{
+        
+        display: none;
+    }
+    
+    .upcomming-box{
+        width: 400px;
+    }
+    
+    .upcomming-card{
+        width: 570px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 570px;
+        margin: 1px -10px;
+    }
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        display: none;
+    
+    }
+    
+    .location h1{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .location p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    
+    .upcomming-box img{
+        height: 140px;
+        margin: 10px;
+    }
+    
+    
+    .service-price-card{
+    
+        width: 130px;
+    }
+
+    .service-price h1{
+        font-size: 10px;
+    }
+
+    .service-price h2{
+        font: 16px;
+    }
+    
+    .service-price p{
+        font-size:7px;
+    }
+    
+    .service-price-btn{
+        padding: 5px 10px;
+        border-radius: 30px;
+        font-size: 7px;
+    }
+    
+    
+    
+    .review-box{
+    
+        width: 400px;
+    }
+
+    .review-section-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .offering1-box-1 p{
+        margin-right: 28px;
+    }
+
+    .upper-footer-box{
+    
+    }
+    
+    .upper-footer-box{
+   
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .footer h1{
+        font-size: 7px;
+    }
+    .footer h2{
+        font-size: 7px;
+    }
+    
+    .footer p{
+        font-size: 5px;
+    }
+}
+    
+
+@media screen and (max-width: 600px){
+        
+
+    .logoo {
+        margin-bottom: -9px;
+        font-size: 30px;
+        padding-left: 70px;
+        margin-left: -70px;
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+    
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+    
+    .card{
+        height: 50px;
+        width: 90px;
+    }
+    
+    .upcomming-box{
+        width: 400px;
+    }
+    
+    .upcomming-card{
+        width: 200px;
+    }
+    .upcomming-card2{
+        width: 200px;
+    }
+    
+    .service-price-card{
+    
+        width: 100px;
+    }
+    
+    
+    .review-box{
+    
+        width: 400px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+    
+    .footer-text{
+        margin: 20px;
+    }
+
+    .footer4{
+        width: 100px;
+    }
+
+    .footer4 h1{
+        font-size: 5px;
+    }
+
+    .footer h2{
+        font-size: 5px;
+    }
+    
+    .footer4{
+        display: none;
+    }
+
+}
+    /* +++++++++ FOR PHONE ++++++++++ */
+
+
+
+    @media screen and (max-width: 470px) {
+
+     
+
+    .n2{
+        font-size: 7px;
+       }
+
+
+    .logoo {    
+        margin-bottom: -9px;
+        font-size: 19px;
+        /* padding-left: 70px; */
+        /* margin-left: 99px; */
+    
+    }
+    
+    .n-support{
+        padding-left: 50px;
+    
+    }
+
+    .navbar-1{
+    
+        font-size: 13px;
+    }
+
+    .navbar-2 .n2{
+        margin-top: 5px;
+         font-size: 14px;
+         margin-right: 35px;
+    }
+
+    .login{
+        padding: 10px 15px;
+    }
+
+
+    .display-logo h1{
+        font-size: 50px;
+    }
+
+    .display-1{
+        margin-top: 30px;
+    }
+    .display-1 h2{
+       
+            font-size: 40px;
+        }
+    .display-2{
+        margin-top: 50px;
+    }
+
+    .display-3{
+        margin-top: 40px;
+    }
+    
+    .card{
+        height: 100px;
+        width: 40px;
+    }
+
+    .card h2{
+        /* display: none; */
+    }
+
+    .card p{
+        
+        display: none;
+    }
+    
+    .upcomming-box{
+        width: 420px;
+    }
+    
+    .upcomming-card{
+        width: 390px;
+        padding: 10px 20px ;
+        /* display: flex;
+        flex-direction: column; */
+        /* margin-top: 100px; */
+        margin-top: -10px;
+    }
+    .upcomming-card2{
+        /* display: flex;
+        flex-direction: column-reverse; */
+        padding: 6px 25px ;
+        width: 390px;
+        margin: 1px -10px;
+    }
+
+    
+
+    .upcomming-card .date{
+        display: none;
+    }
+    .upcomming-card2 .date{
+        display: none;
+    }
+
+    .upcomming-btn{
+        display: none;
+    
+    }
+    
+    .location h1{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    .location p{
+        font-size: 13px;
+        margin: 10px;
+    }
+    
+    .upcomming-box img{
+        height: 140px;
+        margin: 10px;
+    }
+    
+
+    
+.service-price-card{
+
+    width: 200px;
+}
+
+.service-price h1{
+    font-size: 20px;
+}
+
+.service-price p{
+    font-size: 15px;
+}
+
+.service-price-btn{
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+    
+.service-price-title h1{
+    font-size: 40px;
+
+}
+.service-price-title p{
+    font-size: 10px;
+
+}
+
+    .service-price-card-box{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    
+    
+    .review-box{
+    
+        width: 200px;
+    }
+
+    .review-box2{
+        width: 150px;
+        margin-left: -29px;
+    }
+
+    .review-section-btn{
+        padding: 10px 20px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    
+    
+    .offering-box{
+        width: 400px;
+    }
+
+    .offering1-box-1 img{
+        margin-right: 28px; 
+    }
+
+    .offering1-box-1 p{
+        margin-right: 28px;
+    }
+
+    .upper-footer-box{
+    
+    }
+    
+    .upper-footer-box{
+   
+    }
+
+    .footer-text{
+        margin: auto;
+    }
+
+    .footer h1{
+        font-size: 13px;
+    }
+    .footer h2{
+        font-size: 10px;
+    }
+    
+    .footer p{
+        font-size: 10px;
+    }
+
+    .spc2{
+        margin-top: 0px;
+    }
+
+    .footer{
+        background-size: cover;
+        width: 660px;
+    }
+
+    .footer4{
+        display: contents;
+    }
+
+    .footer-box{
+        margin-left: 200px;
+    }
+
+    body{
+        margin-left: 0px;
+        margin-right: -250px;
+    }
+}
+
+
+
+
+
+
+    
+    

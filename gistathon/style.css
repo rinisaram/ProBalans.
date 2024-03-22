@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9fc2df; /* pastel blue */
+    color: #333; /* Dark gray text color */
+}
+
+header, nav, footer {
+    text-align: center;
+    padding: 20px 0;
+    text-size-adjust: 45;
+    background-color: #ffc0cb; /* pastel pink */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px;
+    display: block;
+    /*border-radius: 8px; /* Rounded corners */
+    margin-top: 8px; /* Increase the space from the top border */
+}
+
+
+.image-container img {
+    width: 400px; /* Adjust the width as needed */
+    height: 600px;
+    display: block;
+   /* border-radius: 8px; /* Rounded corners */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 192, 203, 0.8); /* pastel pink with higher opacity */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 8px; /* Rounded corners */
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+a {
+    color: #ff69b4; /* Pink link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ffc0cb; /* pastel pink */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
